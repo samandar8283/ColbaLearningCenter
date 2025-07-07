@@ -18,13 +18,13 @@ exports.handler = async (event) => {
         if (visit) message += `🏫 Tashrif: ${visit === "yes" ? "Ha, albatta" : "Yo'q, viloyatdamiz"}\n`;
         if (grade) message += `🎓 O‘qimoqchi bo‘lgan sinf: ${grade}\n`;
 
-        const url = `https://api.telegram.org/bot${"8049239964:AAHakqZ26JhHCZy6oifFX2-TuYQ9UfG7whQ"}/sendMessage`;
+        const url = `https://api.telegram.org/bot${process.env.TELEGRAM_BOT_TOKEN}/sendMessage`;
 
         const response = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-                chat_id: 1580927808,
+                chat_id: process.env.CHAT_ID,
                 text: message,
             }),
         });
