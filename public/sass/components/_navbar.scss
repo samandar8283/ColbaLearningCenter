@@ -1,0 +1,85 @@
+@use "../abstract/index.scss" as var;
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var.$primary-bg;
+    box-shadow: 0 0 5px 1px rgb(180, 180, 180);
+    padding: 10px 0;
+    z-index: 1000;
+}
+.nav-link, .dropdown-item,
+.navbar-nav .nav-link.show {
+    color: var.$navbar-text-color;
+    &:active,&:hover,&:focus {
+        color: var.$navbar-text-color;
+    }
+}
+.navbar-nav .nav-link.active {
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right bottom, #008CDA 0%, #34D4F2 70%, #ACE2E1 100%);
+}
+.dropdown-item.disabled {
+    color: var.$navbar-text-color !important;
+}
+.navbar-brand {
+    margin-right: 48px;
+    img {
+        width: 140px;
+    }
+}
+.nav-item:not(:last-child) {
+    margin-right: 32px;
+}
+.custom-ms-auto {
+    margin-left: auto;
+}
+.dropdown-menu {
+    background-color: #EFF2FF;
+    border-radius: 16px;
+    border: 0;
+    top: 110% !important;
+}
+.dropdown .nav-link {
+    background-color: #EFF2FF;
+    border-radius: 16px;
+    padding: 9px 25px !important;
+    width: fit-content;
+}
+.dropdown .nav-link::after {
+    display: none;
+}
+.dropdown-item {
+    padding: 4px 25px;
+}
+.dropdown__image {
+    width: 24px;
+    margin-right: 8px;
+}
+.chevron-up, .chevron-down {
+    width: 14px;
+}
+.phone {
+    padding: 9px 24px !important;
+    border-radius: 16px;
+    background-image: linear-gradient(to right bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+    img {
+        width: 24px;
+    }
+    width: fit-content;
+}
+@media only screen and (max-width: 1399.9px) {
+    .navbar-brand {
+        margin-right: 24px;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 16px;
+    }
+}
+@media only screen and (max-width: 991.9px) {
+    .custom-ms-auto {
+        margin-left: 0;
+    }
+}

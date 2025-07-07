@@ -1,0 +1,201 @@
+// Clash Display font
+@font-face {
+  font-family: 'ClashDisplay-Extralight';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Extralight.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Extralight.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Extralight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Light';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Light.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Light.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Regular';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Regular.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Medium';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Medium.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Medium.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Semibold.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ClashDisplay-Bold';
+  src: url('../../assets/fonts/ClashDisplay/ClashDisplay-Bold.woff2') format('woff2'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Bold.woff') format('woff'),
+       url('../../assets/fonts/ClashDisplay/ClashDisplay-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+// Sora font
+@font-face {
+  font-family: 'Sora-Thin';
+  src: url('../../assets/fonts/Sora/Sora-Thin.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Thin.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-ThinItalic';
+  src: url('../../assets/fonts/Sora/Sora-ThinItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-ThinItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-ExtraLight';
+  src: url('../../assets/fonts/Sora/Sora-ExtraLight.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-ExtraLight.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-ExtraLightItalic';
+  src: url('../../assets/fonts/Sora/Sora-ExtraLightItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-ExtraLightItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-Light';
+  src: url('../../assets/fonts/Sora/Sora-Light.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Light.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-LightItalic';
+  src: url('../../assets/fonts/Sora/Sora-LightItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-LightItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-Regular';
+  src: url('../../assets/fonts/Sora/Sora-Regular.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Regular.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-Italic';
+  src: url('../../assets/fonts/Sora/Sora-Italic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Italic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-Medium';
+  src: url('../../assets/fonts/Sora/Sora-Medium.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Medium.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-MediumItalic';
+  src: url('../../assets/fonts/Sora/Sora-MediumItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-MediumItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-SemiBold';
+  src: url('../../assets/fonts/Sora/Sora-SemiBold.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-SemiBold.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-SemiBoldItalic';
+  src: url('../../assets/fonts/Sora/Sora-SemiBoldItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-SemiBoldItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-Bold';
+  src: url('../../assets/fonts/Sora/Sora-Bold.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-Bold.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-BoldItalic';
+  src: url('../../assets/fonts/Sora/Sora-BoldItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-BoldItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sora-ExtraBold';
+  src: url('../../assets/fonts/Sora/Sora-ExtraBold.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-ExtraBold.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sora-ExtraBoldItalic';
+  src: url('../../assets/fonts/Sora/Sora-ExtraBoldItalic.woff2') format('woff2'),
+       url('../../assets/fonts/Sora/Sora-ExtraBoldItalic.woff') format('woff'),
+       url('../../assets/fonts/Sora/Sora-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}

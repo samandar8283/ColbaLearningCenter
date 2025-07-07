@@ -1,0 +1,61 @@
+@use "../abstract/index.scss" as var;
+.hero {
+    margin-top: 140px;
+    color: var.$custom-text-white;
+    .row {
+        background-image: url("./../../assets/media/images/generals/hero-background.png");
+        background-size: cover;
+        background-position: center;
+        padding: 60px 0;
+        border-radius: 40px;
+    }
+}
+.hero__subtitle {
+    margin-bottom: 0;
+}
+.hero__subtitle span:nth-of-type(1) {
+    background-color: var.$primary-bg;
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+.hero__subtitle .special-bg {
+    background: linear-gradient(to bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero__application__text {
+    padding: 0 25%;
+    margin-top: 30px;
+}
+.hero__free-lesson {
+    margin-top: 40px;   
+    margin-bottom: 10px;
+}
+.hero__action {
+    border: 0;
+    background-color: var.$primary-bg;
+    padding: 10px 80px;
+    border-radius: 32px;
+    span {
+        background: linear-gradient(to right bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+@media only screen and (max-width: 991.9px) {
+    .hero__application__text {
+        padding: 0;
+    }
+}
+@media only screen and (max-width: 575.9px) {
+    .hero {
+        margin-top: 77px;
+        .row {
+            min-height: calc(100svh - 77px);
+            border-radius: 0px;
+            display: flex;
+            align-items: center;
+            padding: 60px 0 100px;
+        }
+    }
+}

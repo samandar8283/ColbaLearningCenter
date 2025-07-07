@@ -1,0 +1,149 @@
+body {
+    font-family: "Clash Display";
+}
+
+// sections
+.section__title {
+    font-size: clamp(2.5rem, 4.4vw, 4rem);
+    font-weight: 900;
+}
+
+// navbar section
+.nav-link, .dropdown-item,
+.navbar-nav .nav-link.show {
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+// hero section
+.hero__subtitle {
+    font-size: clamp(1.6rem, 4.1vw, 3.75rem);
+    line-height: 140%;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.hero__subtitle--small {
+    font-size: clamp(1.6rem, 4.1vw, 3.75rem);
+}
+.hero__application__text {
+    font-size: clamp(1.2rem, 1.6vw, 1.5rem);
+}
+.hero__free-lesson {
+    font-size: clamp(1.2rem, 1.6vw, 1.5rem);
+    font-weight: 700;
+}
+.hero__action {
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.65vw, 1.5rem);
+}
+// about section
+.about__title {
+    font-size: clamp(2.5rem, 4.4vw, 4rem);
+    font-weight: 900;
+}
+.about__description {
+    font-size: clamp(1rem, 1.6vw, 1.5rem);
+}
+.subjects__title {
+    font-size: clamp(1.5rem, 2.2vw, 2rem);
+    font-weight: 700;
+}
+.subject__item {
+    font-size: clamp(1rem, 1.6vw, 1.5rem);
+    font-weight: 700;
+}
+
+// advantages section
+.advantage-card__title {
+    font-size: clamp(1.2rem, 2.2vw, 2rem);
+    font-weight: 700;
+}
+.advantage-card__description, .contact__description {
+    font-family: "Clash Display", sans-serif;
+}
+.advantages__action {
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.65vw, 1.5rem);
+}
+
+// results section
+.result-card__title {
+    font-size: clamp(2.8rem, 5.5vw, 5rem);
+    font-weight: 700;
+}
+.result-card__description {
+    font-size: clamp(1.1rem, 1.65vw, 1.5rem);
+    letter-spacing: 1px;
+}
+
+// contact section
+.contact__title {
+    font-size: clamp(1.7rem, 3.5vw, 3.25rem);
+    font-weight: 700;
+}
+.contact__description, .contact__input {
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+    letter-spacing: 1px;
+}
+.contact__input {
+    font-weight: 600;
+}
+.contact__action {
+    font-weight: 700;
+    font-size: clamp(1.2rem, 1.65vw, 1.5rem);
+}
+// system section
+.system-card__description {
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+}
+.system {
+    .subjects__title {
+        font-size: clamp(1.7rem, 3vw, 3rem);
+        font-weight: 700;
+    }
+    .subject__card__title {
+        font-size: clamp(1rem, 1.4vw, 1.15rem);
+        // font-weight: 600;
+    }
+}
+// team section
+.team-card__title {
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+}
+.team__description, .team-card__position {
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+}
+
+// faq section
+.faq__title {
+    font-size: clamp(1.7rem, 3.5vw, 3.25rem);
+    font-weight: 700;
+    line-height: 1.6;
+}
+.accardion__title {
+    font-size: clamp(1.2rem, 1.54vw, 1.4rem);
+    font-weight: 600;
+}
+.accardion__description {
+    font-size: clamp(1rem, 1.4vw, 1.25rem);
+}
+
+// footer section
+.footer__text {
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.footer__phone, .footer__social-media {
+    p {
+        font-size: clamp(1.1rem, 1.4vw, 1.25rem);
+        letter-spacing: 1px;
+    }
+}
+.footer__phone {
+    a {
+        font-size: clamp(1.2rem, 1.54vw, 1.4rem);
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colba Ta'lim Markazi</title>
+    <link rel="icon" type="image/svg" href="./assets/media/images/generals/icon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <!-- HTML start -->
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="">
+                <img src="./assets/media/images/generals/logo.png" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-item" href="#about">Colba haqida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-item" href="#advantages">Afzalliklar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-item" href="#results">Natijalar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-item" href="#system">Oʻquv tizimi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-item" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav custom-ms-auto mb-2 mb-lg-0 d-lg-flex align-items-lg-end">
+                    <li class="nav-item dropdown mb-3 mb-lg-0">
+                        <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="dropdown__image" src="./assets/media/images/generals/flag-uz.png" alt="Flag uz">
+                            Oʻzbekcha
+                            <img class="ms-2 chevron-down arrow" src="./assets/media/images/generals/chevron-down.png" alt="down">
+                            <img class="ms-2 d-none chevron-up arrow" src="./assets/media/images/generals/chevron-up.png" alt="down">
+                        </a>
+                        <ul class="dropdown-menu position-absolute">
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center selected disabled" href="#">
+                                    <img class="dropdown__image" src="./assets/media/images/generals/flag-uz.png" alt="Flag uz">
+                                    Oʻzbekcha
+                                    <img class="selected ms-3" src="./assets/media/images/generals/tick.svg" alt="selected">
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img class="dropdown__image" src="./assets/media/images/generals/flag-en.png" alt="Flag en">
+                                    English
+                                    <img class="selected d-none" src="./assets/media/images/generals/tick.svg" alt="selected">
+                                </a>
+                                </a>
+                            </li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item d-flex align-items-center" href="#">
+                                    <img class="dropdown__image" src="./assets/media/images/generals/flag-ru.png" alt="Flag ru">
+                                    Русский
+                                    <img class="selected d-none" src="./assets/media/images/generals/tick.svg" alt="selected">
+                                </a>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item d-lg-none d-xl-block">
+                        <a class="nav-link phone d-flex align-items-center gap-3" href="tel: +998881658283">
+                            <img src="./assets/media/images/generals/calling.png" alt="Calling">
+                            +998 88 165 82 83
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- /Navbar end -->
+
+    <!-- Header start -->
+    <header class="hero" id="hero">
+        <div class="container">
+            <div class="row">
+                <div class="offset-lg-1 col-lg-10 text-center">
+                    <h1 class="hero__title d-none">COLBA TA’LIM MARKAZI</h1>
+                    <h2 class="hero__subtitle">KIMYO VA BIOLOGIYAGA<br> <span class="d-inline-block my-1 my-sm-0"><span class="special-bg">IXTISOSLASHGAN</span></span> OʻQUV MARKAZ</h2>
+                    <p class="hero__application__text">Kimyo va biologiyaga ixtisoslashgan Oʻzbekistondagi eng katta oʻquv markazda oʻqish uchun ariza qoldiring</p>
+                    <p class="hero__free-lesson">3 kunlik bepul darslarga yoziling</p>
+                    <button class="hero__action application-btn" type="button" data-bs-toggle="modal" data-bs-target="#application-form-modal"><span>Ariza qoldirish</span></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /Header end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-xl-6">
+                    <h2 class="about__title">Biz <span class="special">haqimizda</span></h2>
+                    <p class="about__description">Colba ta’lim markazi - 2010 vil oʻz faoliyatini boshlagan va hozirgi kunda kimyo va biologiyaga ixtisoslashgan Oʻzbekistondagi eng katta oʻquv markaz.</p>
+                    <p class="about__description">Markazimiz tabiiy fanlarga ixtisoslashgan va 2018-yildan boshlab majburiy fanlarni (Matematika, Tarix, Ona tili) ham oʻqitib kelmoqda. Colba ta’lim Markazining Toshkent shahrida 2 ta filiali mavjud.</p>
+                    <div class="subjects">
+                        <h3 class="subjects__title mt-3">Chuqurlashtirilgan fanlar</h3>
+                        <ul class="subject list-unstyled">
+                            <li class="subject__item mt-3 me-2 me-xl-4">Kimyo</li>
+                            <li class="subject__item mt-3 me-2 me-xl-4">Biologiya</li>
+                            <li class="subject__item mt-3 me-2 me-xl-4">Matematika</li>
+                            <li class="subject__item mt-3 me-2 me-xl-4">Ingliz tili</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xl-6 d-none d-md-block about__image">
+                    <img src="./assets/media/images/generals/about-img.png" alt="LC image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /About section end -->
+
+    <!-- Advantages section start -->
+    <section class="advantages" id="advantages">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="offset-lg-1 col-lg-10">
+                    <h2 class="section__title text-uppercase text-center">Nima uchun <span class="special">bizning maktab</span></h2>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-md-6 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-laboratory.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">Laboratoriya</h3>
+                        <p class="advantage-card__description">Oʻquvchilar laboratoriyada kimyo fanidan nazariy oʻrgangan bilimlarini amaliy mustahkamlashlari uchun barcha zaruriy sharoitlar yaratilgan. Laboratoriya mashgʻulotlari uchun esa alohida mutaxassis ustoz biriktirilgan.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-support.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">24/7 Support</h3>
+                        <p class="advantage-card__description">24/7 support orqali o'quvchilar istalgan paytlarida xoh markazda bo'lsin, xoh masofadan turib ustozlaridan yordam olishlari mumkin. Sababli ravishda qoldirilgan darslarni ham yordamchi ustozi bilan oʻzlashtirib olishi mumkin.</p>
+                    </div>
+                </div>
+                <div class="col-md-5 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-flexible.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">Qulay jadval</h3>
+                        <p class="advantage-card__description">Darslarimiz o'quvchiga hech qanday noqulaylik tug'dirmasligi uchun ularga qulay bo'lgan vaqtlar inobatga olinib dars jadvali tuziladi.</p>
+                    </div>
+                </div>
+                <div class="col-md-7 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-events.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">Tadbirlar</h3>
+                        <p class="advantage-card__description">Oʻquvchilar darslardan tashqari vaqtlarini mazmunli tashkil etish maqsadida tadbirlar tashkil etiladi. Tadbirga har tomonlama oʻquvchilarmizga oʻrnak bola oluvchi, ularga toʻgri va foydali maslahatlar bera oluvchi shaxslar chaqiriladi.</p>
+                    </div>
+                </div>
+                <div class="col-md-7 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-sertification.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">Sertifikat</h3>
+                        <p class="advantage-card__description">Darslarimizda doimiy faol boʻlib, vazifalarni oʻz vaqtida bajarib, imtihonlardan oʻtib, kurslarimizni muvaffaqivatli tamomlagan oʻquvchilarimiz uchun "Colba" da oʻqiganligini tasdiqlovchi masxus sertifikatlar taqdim etiladi</p>
+                    </div>
+                </div>
+                <div class="col-md-5 advantage-col">
+                    <div class="advantage-card p-4">
+                        <img class="advantage-card__image mb-3" src="./assets/media/images/advantages/advantage-co-working.png" alt="Advantage Image">
+                        <h3 class="advantage-card__title text-uppercase mb-3">Co-working</h3>
+                        <p class="advantage-card__description">Co-working hududimiz oʻquvchilar darslardan keyin va darslari yoʻq paytlarda kelib dars qilishlari uchun tashkil etilgan va barcha zaruriy sharoitlar yaratilgan.</p>
+                    </div>
+                </div>
+                <div class="col-12 mt-5 justify-content-center d-flex">
+                    <button class="advantages__action application-btn" type="button" data-bs-toggle="modal" data-bs-target="#application-form-modal">Ariza qoldirish</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Advantages section end -->
+
+    <!-- Results section start -->
+    <section class="results" id="results">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="offset-lg-1 col-lg-10">
+                    <h2 class="section__title text-uppercase text-center">COLBA <span class="special">raqamlarda</span></h2>
+                </div>
+            </div>
+            <div class="row mb-4 g-3 result-images">
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <img src="./assets/media/images/results/result-1.svg" alt="Result image">
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <img src="./assets/media/images/results/result-2.svg" alt="Result image">
+                </div>
+            </div>
+            <div class="row g-3 px-xl-5">
+                <div class="col-sm-7 result-col">
+                    <div class="result-card p-3">
+                        <img class="result-card__image mb-4" src="./assets/media/images/results/result-laboratory.png" alt="Result Image">
+                        <h3 class="result-card__title mb-0">10000</h3>
+                        <p class="result-card__description">Markazimizni bitirgan oʻquvchilar soni</p>
+                    </div>
+                </div>
+                <div class="col-sm-5 result-col">
+                    <div class="result-card p-3">
+                        <img class="result-card__image mb-4" src="./assets/media/images/results/result-laboratory.png" alt="Result Image">
+                        <h3 class="result-card__title mb-0">15</h3>
+                        <p class="result-card__description">Yildan beri faoliyat yuritamiz</p>
+                    </div>
+                </div>
+                <div class="col-sm-5 result-col">
+                    <div class="result-card p-3">
+                        <img class="result-card__image mb-4" src="./assets/media/images/results/result-laboratory.png" alt="Result Image">
+                        <h3 class="result-card__title mb-0">1900+</h3>
+                        <p class="result-card__description">Hozirda tahsil olayotgan oʻquvchilar soni</p>
+                    </div>
+                </div>
+                <div class="col-sm-7 result-col">
+                    <div class="result-card p-3">
+                        <img class="result-card__image mb-4" src="./assets/media/images/results/result-laboratory.png" alt="Result Image">
+                        <h3 class="result-card__title mb-0">95%</h3>
+                        <p class="result-card__description">Oʻquvchilarning oʻqishga kirish koʻrsatkichlari nisbati</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Results section end -->
+
+    <!-- Contact section start -->
+    <section class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-1 col-10 col-md-7 col-lg-5 contact__form">
+                    <h2 class="contact__title mb-3">Savollaringiz <span><span class="special-bg">bormi?</span></span></h2>
+                    <form class="row g-3 needs-validation contact-form" novalidate>
+                        <div class="col-12">
+                            <p class="contact__description">Ma’lumotlaringizni toʻldiring, tez orada operatorlarimiz siz bilan bogʻlanishadi</p>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <input type="text" class="form-control contact__input" id="contact-fullname-1" placeholder="Ism familiyangiz..." required>
+                        </div>
+                        <div class="col-12 col-sm-9 position-relative">
+                            <img src="./assets/media/images/generals/flag-uz.png" alt="Uzb flag" class="contact__flag">
+                            <input type="text" class="form-control contact__input contact-phone" id="contact-phone-1" placeholder="+998 __ ___ __ __" pattern="^\+998 \d{2} \d{3} \d{2} \d{2}$" required>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <button class="contact__action btn-primary" type="submit">Ma’lumotlarni joʻnatish</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-lg-6 d-none d-md-block position-relative">
+                    <img src="./assets/media/images/generals/contact-1.png" class="contact__image" alt="Contact Image">
+                </div>
+            </div>
+        </div>
+        <div class="modal-messages position-fixed">
+            <div id="contact-success-message" class="modal-message success col-12 text-center primary-text fw-medium text-white d-none">
+                <p>Xabar muvaffaqiyatli yuborildi!</p>
+            </div>
+            <div id="contact-error-message" class="modal-message error col-12 text-center primary-text fw-medium text-white d-none">
+                <p>Xabar yuborishda xatolik yuz berdi!</p>
+            </div>
+        </div>
+    </section>
+    <!-- /Contact section end -->
+
+    <!-- System section start -->
+    <section class="system" id="system">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="offset-lg-1 col-lg-10">
+                    <h2 class="section__title text-uppercase text-center"><span class="special">Oʻquv</span> tizimi</h2>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-6">
+                    <div class="system-card system-card-1 h-100 rounded-5">
+                        <img class="system-card__image" src="./assets/media/images/system/system-1.png" alt="System Image">
+                        <h3 class="system-card__title text-uppercase fw-semibold rounded-end-4 my-3">Dastur haqida</h3>
+                        <p class="system-card__description my-3">Colba ta’lim markazi muqobili boʻlmagan mualliflik oʻquv dasturi va metodikasiga ega.</p>
+                        <p class="system-card__description my-3">Bu dastur Colba asoschisi Doniyor Nasriddinovning koʻp yillik izlanishlari va tajribasi asosida tuzilgan boʻlib, tabiiy fanlarni juda oson usulda tushuntirilishi va murakkab masalalarga juda qisqa yechimlar va formulalari borligi bilan ajralib turadi.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="system-card system-card-2 h-100 rounded-5">
+                        <img class="system-card__image" src="./assets/media/images/system/system-2.png" alt="System Image">
+                        <h3 class="system-card__title text-uppercase fw-semibold rounded-end-4 my-3">Dasturning afzalligi</h3>
+                        <p class="system-card__description my-3">Ushbu ta’lim dasturi tabiiy fanlar yaxshi rivojlangan Turkiya, Ozarbayjon kabi davlatlar tajribasidan foydalanib ishlab chiqilgan.</p>
+                        <p class="system-card__description my-3">Dasturning afzalliklaridan biri oʻrganish nisbatan osonligi. Shu tufayli oʻquvchilarda qiyinchilik minimum darajaga tushadi va qiziqish ortadi hamda oʻzlashtirish darajasi yuqori boʻladi.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subjects">
+                <div class="core-subjects">
+                    <h2 class="subjects__title text-center mt-5 mb-4">Doimiy fanlar</h2>
+                    <div class="row g-4">
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/biology.png" alt="subject image">
+                                <span class="subject__card__title">Biologiya</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/chemistry.png" alt="subject image">
+                                <span class="subject__card__title">Kimyo</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/math.png" alt="subject image">
+                                <span class="subject__card__title">Matematika</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/english.png" alt="subject image">
+                                <span class="subject__card__title">Ingliz tili</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/upbringing.png" alt="subject image">
+                                <span class="subject__card__title">Tarbiya</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/pe.png" alt="subject image">
+                                <span class="subject__card__title">Jismoniy tarbiya</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elective-subjects">
+                    <h2 class="subjects__title text-center mt-5 mb-4">Muvaqqat fanlar</h2>
+                    <div class="row g-4">
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/mother-tongue.png" alt="subject image">
+                                <span class="subject__card__title">Ona tili</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/literature.png" alt="subject image">
+                                <span class="subject__card__title">Adabiyot</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/history.png" alt="subject image">
+                                <span class="subject__card__title">Tarix</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/geography.png" alt="subject image">
+                                <span class="subject__card__title">Geografiya</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/law.png" alt="subject image">
+                                <span class="subject__card__title">Iqtisod va huquq</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/information-technology.png" alt="subject image">
+                                <span class="subject__card__title">Informatika</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/medicine.png" alt="subject image">
+                                <span class="subject__card__title">Tabobat</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/pcmt.png" alt="subject image">
+                                <span class="subject__card__title">CHQBT</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-xl-3">
+                            <div class="subject__card px-3 py-2 rounded-4">
+                                <img class="subject__card__image me-2 p-2 rounded-4" src="./assets/media/images/subjects/physics.png" alt="subject image">
+                                <span class="subject__card__title">Fizika</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /System section end -->
+
+    <!-- Contact section start -->
+    <section class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-1 col-10 col-md-7 col-lg-5 contact__form">
+                    <h2 class="contact__title mb-3">Savollaringiz <span><span class="special-bg">bormi?</span></span></h2>
+                    <form class="row g-3 needs-validation contact-form" novalidate>
+                        <div class="col-12">
+                            <p class="contact__description">Ma’lumotlaringizni toʻldiring, tez orada operatorlarimiz siz bilan bogʻlanishadi</p>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <input type="text" class="form-control contact__input" id="contact-fullname-2" placeholder="Ism familiyangiz..." required>
+                        </div>
+                        <div class="col-12 col-sm-9 position-relative">
+                            <img src="./assets/media/images/generals/flag-uz.png" alt="Uzb flag" class="contact__flag">
+                            <input type="text" class="form-control contact__input contact-phone" id="contact-phone-2" placeholder="+998 __ ___ __ __" pattern="^\+998 \d{2} \d{3} \d{2} \d{2}$" required>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <button class="contact__action btn-primary" type="submit">Ma’lumotlarni joʻnatish</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-lg-6 d-none d-md-block position-relative">
+                    <img src="./assets/media/images/generals/contact-2.png" class="contact__image" alt="Contact Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Contact section end -->
+
+    <!-- Team section start -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="offset-lg-1 col-lg-10">
+                    <h2 class="section__title text-uppercase text-center">Bizning <span class="special">jamoa</span></h2>
+                </div>
+            </div>
+            <div class="row g-3 g-lg-5 mb-5">
+                <div class="col-md-6 team__description">
+                    <p class="h-100 ps-4 py-4 pe-3 rounded-4">
+                        <img src="./assets/media/images/system/system-1.png" alt="System Image">
+                        Colba ta'lim markazi jamoasi keng ko'lamli mutaxassislik va zamonaviy ko'nikmalarga ega, bir oliy maqsad yo'lida birlashgan fidoyilardan tashkil topgan. Jamoamiz 15 yillik tajribaga ega bo‘lib, shu davr ichida minglab abituriyentlarga yuqori sifatli ta’lim berib, ularni oliy ta’lim muassasalariga kirishlarida yordam bergan.
+                    </p>
+                </div>
+                <div class="col-md-6 team__description">
+                    <p class="h-100 ps-4 py-4 pe-3 rounded-4">
+                        <img src="./assets/media/images/system/system-2.png" alt="System Image">
+                        Jamoamizda yillar davomida past-balandni ko'rgan, boy tajribaga ega yoshi katta mutaxassislardan tortib zamon bilan hamnafas va eng yangi texnologiyalardan xabardor yoshlargacha mavjud va bu Colbani o'z sohasida yetakchi bo'lishiga yordam beradi.
+                    </p>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-card team-card-1 h-100 p-3 rounded-4">
+                        <h3 class="team-card__title text-uppercase fw-semibold">Doniyor Nasriddinov</h3>
+                        <p class="team-card__position">Colba ta’lim markazi asoschisi</p>
+                        <img class="rounded-4" src="./assets/media/images/team/Doniyor-Nasriddinov.png" alt="Team Image">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-card team-card-2 h-100 p-3 rounded-4">
+                        <h3 class="team-card__title text-uppercase fw-semibold">Jahongir Nasriddinov</h3>
+                        <p class="team-card__position">Colba ta’lim markazi asoschisi</p>
+                        <img class="rounded-4" src="./assets/media/images/team/Jahongir-Nasriddinov.png" alt="Team Image">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 offset-sm-3 offset-md-0">
+                    <div class="team-card team-card-3 h-100 p-3 rounded-4">
+                        <h3 class="team-card__title text-uppercase fw-semibold">Sardorbek Hayitboyev</h3>
+                        <p class="team-card__position">Colba ta’lim markazi direktori</p>
+                        <img class="rounded-4" src="./assets/media/images/team/Sardorbek-Hayitboyev.png" alt="Team Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Team section end -->
+
+    <!-- Atmosphere section start -->
+    <section class="atmosphere" id="atmosphere">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="offset-lg-1 col-lg-10">
+                    <h2 class="section__title text-uppercase text-center">COLBA <span class="special">ATMOSFERASI</span></h2>
+                </div>
+            </div>
+            <div class="grid-container">
+                <div class="img-1">
+                    <img src="./assets/media/images/atmosphere/img-1.png" alt="Atmosphere Image">
+                </div>
+                <div class="img-2">
+                    <img src="./assets/media/images/atmosphere/img-2.png" alt="Atmosphere Image">
+                </div>
+                <div class="img-3">
+                    <img src="./assets/media/images/atmosphere/img-3.png" alt="Atmosphere Image">
+                </div>
+                <div class="img-4">
+                    <img src="./assets/media/images/atmosphere/img-4.png" alt="Atmosphere Image">
+                </div>
+                <div class="img-5">
+                    <img src="./assets/media/images/atmosphere/img-5.png" alt="Atmosphere Image">
+                </div>
+                <div class="img-6">
+                    <img src="./assets/media/images/atmosphere/img-6.png" alt="Atmosphere Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Atmosphere section end -->
+
+    <!-- FAQ section start -->
+    <section class="faq" id="faq">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-lg-1 col-lg-10 mb-4">
+                    <h2 class="faq__title text-uppercase text-center">Koʻp  <span><span class="special-bg">soʻraladigan</span></span>  savollar</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="offset-sm-1 col-sm-10 px-4 px-sm-0">
+                    <div class="row faq-accardion g-4">
+                        <div class="col-md-6">
+                            <div class="accardion__item" data-target="#accardion__item__first">
+                                <button class="accardion__toggle"><span class="accardion__toggle__text open"><img class="accardion__toggle__image" src="./assets/media/images/generals/minus.png" alt="Plus"></span></button>
+                                <h4 class="accardion__title pe-4">Maktab qayerda joylashgan?</h4>
+                                <p class="accardion__description mb-0" id="accardion__item__first">Maktabimiz Toshkent shahrida joylashgan. Hozirgi kunda Toshkent shahrida 2ta: Tinchlik va Chilonzor filiallari mavjud.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="accardion__item" data-target="#accardion__item__second">
+                                <button class="accardion__toggle"><span class="accardion__toggle__text"><img class="accardion__toggle__image" src="./assets/media/images/generals/plus.png" alt="Plus"></span></button>
+                                <h4 class="accardion__title pe-4">Nechanchi sinfdan qabul qilasizlar?</h4>
+                                <p class="accardion__description mb-0" id="accardion__item__second">Maktabimizga 5-sinfdan oʻquvchilarni qabul qilamiz.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="accardion__item" data-target="#accardion__item__third">
+                                <button class="accardion__toggle"><span class="accardion__toggle__text"><img class="accardion__toggle__image" src="./assets/media/images/generals/plus.png" alt="Plus"></span></button>
+                                <h4 class="accardion__title pe-4">Yotoqxona mavjudmi?</h4>
+                                <p class="accardion__description mb-0" id="accardion__item__third">Yoʻq, hozircha maktabimizda yotoqxona mavjud emas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="accardion__item" data-target="#accardion__item__fourth">
+                                <button class="accardion__toggle"><span class="accardion__toggle__text"><img class="accardion__toggle__image" src="./assets/media/images/generals/plus.png" alt="Plus"></span></button>
+                                <h4 class="accardion__title pe-4">Rus sinflari mavjudmi?</h4>
+                                <p class="accardion__description mb-0" id="accardion__item__fourth">Yoʻq, maktabimizda faqat oʻzbek sinflari mavjud.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="accardion__item" data-target="#accardion__item__fifth">
+                                <button class="accardion__toggle"><span class="accardion__toggle__text"><img class="accardion__toggle__image" src="./assets/media/images/generals/plus.png" alt="Plus"></span></button>
+                                <h4 class="accardion__title pe-4">Maktab faqat Kimyo va Biologiyaga ixtisoslashganmi?</h4>
+                                <p class="accardion__description mb-0" id="accardion__item__fifth">Maktabimiz tabiiy fanlarga ixtisoslashgan. Shu bilan birga maktabimizda Matematika va Ingliz tili fanlari chuqurlashtirilgan holda oʻrgatiladi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /FAQ section end -->
+
+    <!-- Contact section start -->
+    <section class="contact">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="offset-1 col-10 col-md-7 col-lg-5 contact__form">
+                    <h2 class="contact__title mb-3">Savollaringiz <span><span class="special-bg">bormi?</span></span></h2>
+                    <form class="row g-3 needs-validation contact-form" novalidate>
+                        <div class="col-12">
+                            <p class="contact__description">Ma’lumotlaringizni toʻldiring, tez orada operatorlarimiz siz bilan bogʻlanishadi</p>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <input type="text" class="form-control contact__input" id="contact-fullname-3" placeholder="Ism familiyangiz..." required>
+                        </div>
+                        <div class="col-12 col-sm-9 position-relative">
+                            <img src="./assets/media/images/generals/flag-uz.png" alt="Uzb flag" class="contact__flag">
+                            <input type="text" class="form-control contact__input contact-phone" id="contact-phone-3" placeholder="+998 __ ___ __ __" pattern="^\+998 \d{2} \d{3} \d{2} \d{2}$" required>
+                        </div>
+                        <div class="col-12 col-sm-9">
+                            <button class="contact__action btn-primary" type="submit">Ma’lumotlarni joʻnatish</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-lg-6 d-none d-md-block position-relative">
+                    <img src="./assets/media/images/generals/contact-1.png" class="contact__image" alt="Contact Image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Contact section end -->
+
+    <!-- Footer start -->
+    <footer class="footer" id="footer">
+        <div class="row align-items-center">
+            <div class="col-lg-4">
+                <div class="logo">
+                    <img src="./assets/media/images/generals/Logo-footer.png" alt="Logo">
+                </div>
+                <p class="footer__text mt-3">Biz bilan oʻzingizga qulay tarzda bogʻlaning</p>
+            </div>
+            <div class="col-lg-8">
+                <div class="row">
+                    <div class="col-sm-7 col-md-8 footer__map ps-3">
+                        <iframe src="https://yandex.com/map-widget/v1/?um=constructor%3A9c0aec8cd49a945eb3c7824bddcbce3527339bb07366ab00d6d7566106366f8a&amp;source=constructor" width="100%" height="240" frameborder="0"></iframe>
+                    </div>
+                    <div class="col-sm-5 col-md-4 d-flex flex-column justify-content-between ps-3">
+                        <div class="footer__phone my-2">
+                            <p class="mb-1">Telefon:</p>
+                            <a href="tel: +998881658283">+998 88 165 82 83</a>
+                        </div>
+                        <div class="footer__social-media">
+                            <p class="mb-2">Ijtimoiy tarmoqlar:</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item me-2 me-xl-3">
+                                    <a href="https://t.me/ys8283/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+                                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-2 me-xl-3">
+                                    <a href="https://github.com/samandar8283/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item me-2 me-xl-3">
+                                    <a href="https://www.linkedin.com/in/samandar8283/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.instagram.com/mustafo_82_83/" target="_blank">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /Footer end -->
+
+    <!-- Application start -->
+    <section class="application">
+        <div class="modal fade" id="application-form-modal" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                <div class="modal-content p-2 p-lg-3">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="application-form-label">Ariza qoldirish</h1>
+                        <button type="button" class="btn-close application-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="row g-3 needs-validation application-form" novalidate>
+                            <div class="col-12">
+                                <label for="fullname" class="form-label">F.I.SH</label>
+                                <input type="text" class="form-control" id="fullname" placeholder="F.I.SH" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="number" class="form-label">Telefon raqam</label>
+                                <input type="text" class="form-control" id="number" placeholder="+998 __ ___ __ __" pattern="^\+998 \d{2} \d{3} \d{2} \d{2}$" required>
+                            </div>
+                            <div class="col-12">
+                                <label for="visit" class="form-label">Maktabimiz Toshkent shahrida joylashgan, tashrif buyura olasizmi?</label>
+                                <select id="visit" class="form-select" required>
+                                    <option value="">Tanlang...</option>
+                                    <option value="yes">Ha, albatta!</option>
+                                    <option value="no">Yo'q, viloyatdamiz!</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label for="grade" class="form-label">Farzandingiz nechanchi sinf?</label>
+                                <input type="number" class="form-control" id="grade" placeholder="Farzandingiz nechanchi sinf?" min="1" max="11" required>
+                            </div>
+                            <div class="col-6">
+                                <button class="btn text-center w-100 application-close" data-bs-dismiss="modal" type="reset">Bekor qilish</button>
+                            </div>
+                            <div class="col-6">
+                                <button type="submit" class="btn text-center w-100 application-submit">Ariza yuborish</button>
+                            </div>
+                            <div class="modal-messages col-12">
+                                <div id="application-success-message" class="modal-message success col-12 text-center primary-text fw-medium text-white d-none">
+                                    <p>Xabar muvaffaqiyatli yuborildi!</p>
+                                </div>
+                                <div id="application-error-message" class="modal-message error col-12 text-center primary-text fw-medium text-white d-none">
+                                    <p>Xabar yuborishda xatolik yuz berdi!</p>
+                                </div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Application end -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.9/jquery.inputmask.min.js" integrity="sha512-F5Ul1uuyFlGnIT1dk2c4kB4DBdi5wnBJjVhL7gQlGh46Xn0VhvD8kgxLtjdZ5YN83gybk/aASUAlpdoWUjRR3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!-- Application js -->
+    <script>
+        $(document).ready(function() {
+            if(window.innerWidth > 991.9) {
+                $(".application-btn").click(function() {
+                    $(".phone").css("margin-right", "16px");
+                })
+                $("#application-form-modal").on("hide.bs.modal", function() {
+                    $(".needs-validation").removeClass("was-validated");
+                })
+            }
+        })
+        $("form.application-form").on("submit", function(e) {
+            const form = this;
+
+            if (!form.checkValidity()) {
+                e.preventDefault();
+                e.stopPropagation();
+            } else {
+                e.preventDefault(); // Formani yubormaymiz, o‘zimiz yuboramiz
+                const fullname = $("#fullname").val().trim();
+                const number = $("#number").val().trim();
+                const visit = $("#visit").val();
+                const grade = $("#grade").val();
+
+                const data = { fullname, number, visit, grade };
+
+                $.ajax({
+                url: "/.netlify/functions/sendApplicationForm",
+                method: "POST",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: function(response) {
+                    $(form).removeClass("was-validated").delay(100);
+                    form.reset();
+                    $("#application-success-message").removeClass("d-none");
+                    $("#application-error-message").addClass("d-none");
+                    setTimeout(function () {
+                        $("#application-success-message").fadeOut(500, function () {
+                            $(this).addClass("d-none").show();
+                        });
+                    }, 3000);
+                },
+                error: function(xhr) {
+                    $("#application-success-message").addClass("d-none");
+                    $("#application-error-message").removeClass("d-none");
+                    setTimeout(function () {
+                        $("#application-error-message").fadeOut(500, function () {
+                            $(this).addClass("d-none").show();
+                        });
+                    }, 3000);
+                }
+                });
+            }
+            $(form).addClass("was-validated");
+        });
+    </script>
+    <!-- /Application js -->
+
+    <!-- Contact js -->
+    <script>
+        $("form.contact-form").each(function() {
+            $(this).on("submit", function(e) {
+                e.preventDefault();
+                const form = this;
+                
+                if (!form.checkValidity() ) {
+                    e.stopPropagation();
+                } else {
+                    // Inputlardan mos ID orqali qiymatlarni olamiz
+                    const fullname = $(form).find("input[id^='contact-fullname']").val().trim();
+                    const phone = $(form).find("input[id^='contact-phone']").val().trim();
+
+                    const data = { fullName: fullname, phone };
+
+                    $.ajax({
+                    url: "/.netlify/functions/sendContactForm",
+                    method: "POST",
+                    contentType: "application/json",
+                    data: JSON.stringify(data),
+                    success: function(response) {
+                        $(form).removeClass("was-validated");
+                        form.reset();
+                        $("#contact-success-message").removeClass("d-none");
+                        $("#contact-error-message").addClass("d-none");
+                        setTimeout(function () {
+                            $("#contact-success-message").fadeOut(500, function () {
+                                $(this).addClass("d-none").show();
+                            });
+                        }, 3000);
+                    },
+                    error: function(xhr) {
+                        $("#contact-success-message").addClass("d-none");
+                        $("#contact-error-message").removeClass("d-none");
+                        setTimeout(function () {
+                            $("#contact-error-message").fadeOut(500, function () {
+                                $(this).addClass("d-none").show();
+                            });
+                        }, 3000);
+                    }
+                    });
+                }
+                $(form).addClass("was-validated");
+            })
+        })
+    </script>
+    <!-- /Contact js -->
+
+    <!-- Dropdown arrow js -->
+    <script>
+        $(document).ready(function() {
+            $(".dropdown .nav-link").on("click", function() {
+                $(".arrow").toggleClass("d-none");
+            });
+        });
+    </script>
+    <!-- Phone number mask js -->
+    <script>
+        $(document).ready(function () {
+            $('.contact-phone, #number').inputmask({
+            mask: "+\\9\\9\\8 99 999 99 99",
+            placeholder: "_",
+            showMaskOnHover: false,
+            showMaskOnFocus: true,
+            clearIncomplete: true,
+            autoUnmask: false
+            });
+        });
+    </script>
+    <!-- FAQ accardion js -->
+    <script>
+        $(".accardion__item").click(function() {
+            const targetSelector = $(this).data("target");
+            const target = $(targetSelector);
+            const span_bg = $(this).find(".accardion__toggle__text");
+            const icon = $(this).find(".accardion__toggle__image");
+
+            $(".accardion__description").not(target).slideUp(400);
+            $(".accardion__toggle__image").not(icon).attr("src", "./assets/media/images/generals/plus.png");
+            $(".accardion__toggle__text").not(span_bg).removeClass("open");
+
+            if (target.is(":visible")) {
+                target.slideUp(400);
+                icon.attr("src", "./assets/media/images/generals/plus.png");
+                span_bg.removeClass("open");
+            }
+            else {
+                target.slideDown(400);
+                icon.attr("src", "./assets/media/images/generals/minus.png");
+                span_bg.addClass("open");
+            }
+        })
+    </script>
+    <!-- Scroll js -->
+    <script>
+        let isScrollingByClick = false;
+        document.querySelectorAll('.scroll-item').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                isScrollingByClick = true;
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+                document.querySelectorAll('.scroll-item').forEach(nav => {
+                    nav.classList.remove('active');
+                });
+
+                this.classList.add('active'); 
+                const $navbarCollapse = $("#navbarSupportedContent");
+    
+                if ($navbarCollapse.hasClass("show")) {
+                    $navbarCollapse.collapse("hide");
+                }
+                if (targetElement) {
+                    smoothScrollTo(targetElement);
+                }
+                setTimeout(() => {
+                    isScrollingByClick = false;
+                }, 800);
+            });
+        });
+
+        function smoothScrollTo(targetElement) {
+            const startPosition = window.scrollY || window.pageYOffset;
+            const targetPosition = targetElement.getBoundingClientRect().top + startPosition - 100;
+            const distance = targetPosition - startPosition;
+
+            const duration = 800;
+            let startTime = null;
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+
+                const progress = Math.min(timeElapsed / duration, 1);
+                const ease = easeInOutQuad(progress);
+
+                window.scrollTo(0, startPosition + distance * ease);
+
+                if (timeElapsed < duration) {
+                    requestAnimationFrame(animation);
+                }
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        function easeInOutQuad(t) {
+            return t < 0.5 ? 2*t*t : -1 + (4 - 2*t)*t;
+        }
+        const sections = document.querySelectorAll("section, header, footer");
+        const navLinks = document.querySelectorAll(".nav-link");
+
+        function onScroll() {
+            const scrollY = window.scrollY;
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 102; // offset for navbar height
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute("id");
+
+                if (scrollY >= sectionTop && scrollY < sectionTop + sectionHeight) {
+                    navLinks.forEach(link => {
+                        link.classList.remove("active");
+                        link.removeAttribute("aria-current");
+
+                        if (sectionId && link.getAttribute("href") === "#" + sectionId) {
+                            link.classList.add("active");
+                            link.setAttribute("aria-current", "page");
+                        }
+                    });
+                }
+            });
+        }
+
+        window.addEventListener("scroll", function() {
+            if (isScrollingByClick) return;
+            onScroll();
+        });
+    </script>
+
+    <!-- Validation js -->
+    <script>
+        (() => {
+            'use strict'
+
+            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+            const forms = document.querySelectorAll('.needs-validation')
+
+            // Loop over them and prevent submission
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+                }, false)
+            })
+        })()
+    </script>
+    <!-- /Validation js -->
+</body>
+</html>

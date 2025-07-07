@@ -1,0 +1,63 @@
+@use "../abstract/index.scss" as var;
+.team {
+    margin-top: 120px;
+}
+.team__description {
+    color: var.$custom-text-white;
+    &:nth-child(1) {
+        p {
+            background: linear-gradient(to right bottom, #008CDA 0%, #34D4F2 70%, #ACE2E1 100%);
+        }
+    }
+    &:nth-child(2) {
+        p {
+            background: linear-gradient(to right bottom, #007E72 0%, #4DE4A7 70%, #95FCD2 100%);
+        }
+    }
+    img {
+        display: block;
+        width: 96px;
+        height: 96px;
+        margin-bottom: 16px;
+    }
+}
+.team-card-1 {
+    background-color: var.$custom-dark-green-30;
+    .team-card__title {
+        color: var.$custom-dark-green;
+    }
+}
+.team-card-2 {
+    background-color: var.$custom-purple-30;
+    .team-card__title {
+        color: var.$custom-purple;
+    }
+}
+.team-card-3 {
+    background-color: var.$custom-dark-blue-30;
+    .team-card__title {
+        color: var.$custom-dark-blue;
+    }
+}
+.team-card img {
+    width: 100% !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+.team-card__position {
+    color: var.$custom-text-black;
+}
+@media only screen and (max-width: 1490.9px) {
+    .team-card__title {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 575.9px) {
+    .team-card__title {
+        width: 100%;
+    }
+    .team-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

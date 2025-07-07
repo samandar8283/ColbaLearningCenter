@@ -1,0 +1,47 @@
+@use "../abstract/index.scss" as var;
+.application {
+    .modal-dialog {
+        max-width: 100%;
+        width: 700px;
+    }
+    button:not([type="button"]),
+    button:not([type="button"]):active {
+        border: 0;
+        color: var.$custom-text-white;
+        background-color: var.$custom-dark-blue;
+    }
+    .modal-messages {
+        z-index: 10;
+        height: 40px;
+        p {
+            padding: 8px 0;
+            border-radius: 8px;
+        }
+        .success {
+            p {
+                background-color: var.$custom-dark-green;
+            }
+        }
+        .error {
+            p {
+                background-color: var.$custom-dark-red;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 991.9px) {
+    .application {
+        .modal-dialog {
+            max-width: 80%;
+            margin: auto;
+        }
+    }
+}
+@media only screen and (max-width: 479.9px) {
+    .application {
+        .modal-dialog {
+            max-width: 100%;
+            margin: auto;
+        }
+    }
+}

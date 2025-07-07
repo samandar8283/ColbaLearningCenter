@@ -1,0 +1,124 @@
+@use "../abstract/index.scss" as var;
+.contact {
+    margin-top: 120px;
+    background-image: url("./../../assets/media/images/generals/contact-background.png");
+    background-size: cover;
+    border-radius: 48px;
+    .modal-messages {
+        z-index: 10;
+        bottom: 5%;
+        width: 100%;
+        p {
+            padding: 8px 0;
+            border-radius: 8px;
+            width: 400px;
+            margin: auto;
+        }
+        .success {
+            p {
+                background-color: var.$custom-dark-green;
+            }
+        }
+        .error {
+            p {
+                background-color: var.$custom-dark-red;
+            }
+        }
+    }
+}
+.contact__form {
+    padding: 60px 0;
+}
+.contact__title {
+    > span {
+        background-color: var.$primary-bg;
+        padding: 8px 24px;
+        border-radius: 16px;
+    }
+    .special-bg {
+        background: linear-gradient(to bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.contact__description {
+    color: var.$custom-text-white;
+    width: 85%;
+}
+.contact__input:nth-child(1) {
+    padding: 16px 28px;
+    border-radius: 50px;
+}
+.contact__input:nth-child(2) {
+    padding: 16px 65px;
+    border-radius: 50px;
+}
+.contact-phone::placeholder {
+    color: var.$custom-text-black;
+}
+.contact__input:active,
+.contact__input:focus {
+    box-shadow: 0 0 10px 1px var.$custom-text-black;
+}
+.contact__flag {
+    width: 28px;
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    transform: translateY(-50%);
+}
+.contact__action {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px 0;
+    border-radius: 32px;
+    color: var.$custom-text-white;
+}
+.contact__image {
+    height: 120%;
+    position: absolute;
+    top: -12%;
+    left: 20%;
+}
+@media only screen and (max-width: 1499.9px) {
+    .contact__image {
+        left: 15%;
+    }
+}
+@media only screen and (max-width: 1399.9px) {
+    .contact__image {
+        left: 7%;
+    }
+}
+@media only screen and (max-width: 1199.9px) {
+    .contact__image {
+        height: 115%;
+        top: -11.4%;
+        left: 5%;
+    }
+}
+@media only screen and (max-width: 1099.9px) {
+    .contact__image {
+        height: 105%;
+        top: -10.5%;
+        left: 2%;
+    }
+}
+@media only screen and (max-width: 991.9px) {
+    .contact {
+        overflow: hidden;
+    }
+    .contact__image {
+        height: 115%;
+        top: -11.6%;
+        left: -20%;
+    }
+}
+@media only screen and (max-width: 859.9px) {
+    .contact__form {
+        padding: 40px 0;
+    }
+    .contact__image {
+        left: -28%;
+    }
+}

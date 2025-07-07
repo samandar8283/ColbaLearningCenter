@@ -1,0 +1,19 @@
+@use "../abstract/index.scss" as var;
+section:not(.about, .application) {
+    margin-top: 120px;
+}
+.section__title .special {
+    background: linear-gradient(to bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media only screen and (max-width: 767.9px) {
+    section:not(.about, .application) {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 575.9px) {
+    section:not(.about, .application) {
+        margin-top: 80px;
+    }
+}

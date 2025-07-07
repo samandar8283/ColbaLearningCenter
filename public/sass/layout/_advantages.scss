@@ -1,0 +1,43 @@
+@use "../abstract/index.scss" as var;
+.advantages {
+    margin-top: 120px;
+}
+.advantage-col:nth-child(4n) > div {
+    color: var.$custom-purple;
+    background-color: var.$custom-purple-30;
+}
+.advantage-col:nth-child(4n+1) > div {
+    color: var.$custom-dark-green;
+    background-color: var.$custom-dark-green-30;
+}
+.advantage-col:nth-child(4n+2) > div {
+    color: var.$custom-light-blue;
+    background-color: var.$custom-light-blue-30;
+}
+.advantage-col:nth-child(4n+3) > div {
+    color: var.$custom-dark-blue;
+    background-color: var.$custom-dark-blue-30;
+}
+.advantage-card {
+    border-radius: 24px;
+    height: 100%;
+}
+.advantage-card__description {
+    color: var.$custom-text-black;
+}
+.advantage-card__image {
+    width: 64px;
+    height: 64px;
+}
+.advantages__action {
+    border: 0;
+    background: linear-gradient(to right bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+    padding: 10px 150px;
+    border-radius: 32px;
+    color: var.$custom-text-white;
+}
+@media only screen and (max-width: 575.9px) {
+    .advantages__action {
+        padding: 10px 80px;
+    }
+}

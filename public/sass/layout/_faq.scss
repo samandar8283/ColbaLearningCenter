@@ -1,0 +1,67 @@
+@use "../abstract/index.scss" as var;
+.faq {
+    margin-top: 120px;
+    background-image: url("./../../assets/media/images/generals/faq-background.png");
+    background-size: cover;
+    border-radius: 40px;
+    padding: 56px 0;
+}
+.faq__title {
+    > span {
+        background-color: var.$primary-bg;
+        padding: 8px 24px;
+        border-radius: 16px;
+    }
+    .special-bg {
+        background: linear-gradient(to bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+.accardion__item {
+    background-color: var.$primary-bg;
+    border-radius: 16px;
+    padding: 16px;
+    cursor: pointer;
+    position: relative;
+    button {
+        position: absolute;
+        top: 15px;
+        right: 2%;
+        background: none;
+        border: none;
+        padding: 0;
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+            background: var.$primary-bg;
+            color: var.$custom-dark-blue;
+            border-radius: 50%;
+            width: 28px;
+            height: 28px;
+            line-height: 1;
+            border: 2px solid var.$custom-dark-blue;
+        }
+        span.open {
+            background: linear-gradient(to bottom, #008CDA 0%, #34D4F2 50%, #ACE2E1 100%);
+            border: none;
+        }
+    }
+    img {
+        width: 16px;
+    }
+}
+.accardion__title {
+    margin: 0;
+}
+.accardion__description {
+    display: none;
+    padding-top: 16px;
+}
+#accardion__item__first {
+    display: block;
+}
+@media only screen and (max-width: 575.9px) {
+}
