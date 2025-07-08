@@ -384,6 +384,11 @@ body {
   padding: 4px 25px;
 }
 
+.dropdown-item:hover,
+.dropdown-item:active {
+  background-color: transparent;
+}
+
 .dropdown__image {
   width: 24px;
   margin-right: 8px;
